@@ -1,0 +1,21 @@
+h3{
+    color: pink;
+}
+
+p, div{
+    color: gray;
+}
+
+p{
+    color: red;
+}
+
+p{
+    color: green;
+}
+
+
+
+.yellow{
+    color: yellow;
+}
