@@ -1,21 +1,76 @@
-h3{
-    color: pink;
-}
-
-p, div{
+#greycol{
     color: gray;
 }
 
-p{
+.yellow{
+    color: rgb(255, 255, 0);
+}
+
+h3:first-child{
+    color: pink;
+}
+
+.text-box>div>p{
     color: red;
 }
 
-p{
+p:nth-child(7){
     color: green;
 }
 
+/* TAsk2 */
+ul{
+    list-style: none;
+}
 
+a{
+    text-decoration: none;
+}
 
-.yellow{
-    color: yellow;
+.list{
+    display: flex;
+}
+
+.hover-link:hover{
+    color: fuchsia;
+}
+
+.focus-link:focus{
+    background-color: skyblue;
+}
+
+.link:link{
+    background-color: yellowgreen;
+}
+
+.link1{
+    color: blue;
+}
+
+.visited-link:visited{
+    background-color: red;
+}
+
+.active-link:active{
+    background-color: fuchsia;
+}
+
+.tesday li:last-child{
+    background-color: yellowgreen;
+}
+
+.wednesday li:nth-child(odd){
+    color: blue;
+}
+
+.thursday li:nth-child(even){
+    background-color: pink;
+}
+
+.friday li:nth-child(-n+2){
+    background-color: skyblue;
+}
+
+.friday li:nth-child(3n){
+    color: fuchsia;
 }
